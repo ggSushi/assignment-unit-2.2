@@ -26,10 +26,12 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Declared variable 'name' with value 'Dane'
+
+// if the variable 'name' is equal to 'Mary' then it will display message 'Hi, Mary' into console.
+// if the variable 'name' is not equal to 'Mary' then it will display 'How do you do?' in the console.
 //
+// Console should display 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +47,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+//declare variable 'secret' without value
+//declare variable 'code' with value 123
+//if value of variable 'code' is equal to 123, then value of 'secret' changes to 'super' and value of 'code' changes to 'code * 2'
+//if value of 'code' is greater than 250, then value of 'secret' is changed to 'duper' 
 //
+//Console log should display 'super'
 
 //CODE
 /*
@@ -70,10 +74,20 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// declared variable 'isStudent' assigned the value of the boolean 'true'
+// declared variable 'age' assigned the value 34
+// declared variable 'zip' assigned the value 55407;
+
+// if variable 'isStudent' is equal to 'true' and the variable 'zip' is greater than 80000, 
+// console will display 'You're a student on the West Coast!'
+// Otherwise, if value of 'isStudent' is 'false' OR value of 'age' is less than 30,
+// console will display 'What are your hobbies?'
+// Otherwise, if value of 'isStudent' is 'true', console will display 'Welcome to Prime!'
+// Otherwise, console will display 'How's the weather?'
+
+// Console should display 'Welcome to Prime!' 
 //
+
 
 //CODE
 /*
@@ -130,10 +144,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be given value 'blue' and colorTwo should be given value 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - colorTwo should also be reassigned value 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +163,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - it shouldn't be an Or || statement, but it should be changed to an and && statement.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +176,15 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - order of operations should be set to (age >= minAge)
+// the console log if else should be changed as well.
+// if (age >= minAge) {
+//  console.log('enter');
+// } else {
+//  console.log('no entry');
+// }
+
 
 if(minAge <= age) {
   console.log('no entry');
